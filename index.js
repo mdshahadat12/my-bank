@@ -5,7 +5,7 @@ document.getElementById("loginBtn").addEventListener('click', function(){
     // console.log(logPass);
 
     if(emailid === 'mdsadt2@gmail.com' && logPass === 'Shahadat'){
-        window.location.href = './bank.js'
+        window.location.href = './bank.html'
     }else{
         alert('input valid email')
     }
